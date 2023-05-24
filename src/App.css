@@ -1,0 +1,69 @@
+body {
+  background-color: #ced2d9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  width: 330px;
+}
+.calculator {
+  background-color: black;
+  border: 5px, solid;
+}
+.formulaScreen,
+.outputScreen {
+  height: 26px;
+  text-align: right;
+  padding: 0 5px;
+}
+.formulaScreen {
+  color: rgb(243, 191, 47);
+  font-size: 16px;
+  padding-top: 5px;
+}
+.button-wrap {
+  position: relative;
+  padding: 5px;
+}
+button {
+  width: 80px;
+  height: 65px;
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(105, 104, 104);
+  color: white;
+  font-size: 18px;
+  font-weight: sold;
+}
+
+#clear,
+#zero {
+  width: 160px;
+}
+.operator {
+  background-color: rgb(153, 152, 152);
+}
+#clear {
+  background-color: rgb(162, 2, 2);
+}
+#equals {
+  background: rgb(0, 68, 102);
+  position: absolute;
+  height: 130px;
+  bottom: 5px;
+}
+.author {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  padding-top: 20px;
+}
+button:hover {
+  border: 1px solid rgb(182, 179, 179);
+}
